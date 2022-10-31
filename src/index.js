@@ -1,17 +1,18 @@
-import React from 'react';
+import React from 'react';//linea y 2 importo modulos
 import ReactDOM from 'react-dom/client';
-import './index.css';// los estilos son lo unico que se importa directamente
-import App from './App';// importo otro componente
-// la estructura de lo que si importa es la siguiente
-//primero escribo import
-//segundo el nombre de lo que necesito 
-//tercero escribo from(desde donde)
-//cuarto escribo la ruta de lo q necesito
+import './index.css'; //los estiolos son los unicos que se importan directamente
+import App from './App'; // aqui importo otro componente
+
+//la estructura de lo que se importa es la siguiente
+//1ero escribo la palabra import
+//2do escribo el nombre lo que necesito
+//escribo la palabra FROM desde lo que estoy importando
+//// escribo la ruta de lo que necesito
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
     <App />
-  </React.StrictMode>
+
 );
-//todo lo que se necesite se importa y se exporta
+
+//todo lo que necesites, lo importas y lo exportas desde un modulo de la carpeta node modules
